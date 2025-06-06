@@ -1,0 +1,83 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #264653;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.perfil {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  background: #ffffff;
+  border-bottom: 1px solid #ccc;
+}
+
+.perfil img.foto {
+  max-width: 200px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.perfil article {
+  flex: 1;
+  min-width: 250px;
+}
+
+.cv, .citas, .encuesta {
+  padding: 20px;
+  background-color: #ffffff;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+blockquote {
+  font-style: italic;
+  border-left: 4px solid #2a9d8f;
+  margin: 10px 0;
+  padding-left: 15px;
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #2a9d8f;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #21867a;
+}
+
+footer {
+  background-color: #264653;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+

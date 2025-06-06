@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lic. Eliana Rosal - Enfermera Profesional</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Lic. Eliana Rosal</h1>
+    <p>Enfermera Profesional | Investigadora | Educadora</p>
+  </header>
+
+  <section class="perfil">
+    <img src="foto.jpg" alt="Foto de Eliana Rosal" class="foto">
+    <article>
+      <h2>Sobre mí</h2>
+      <p>Soy licenciada en Enfermería con formación en Venezuela y Argentina. He trabajado en entornos hospitalarios y en el campo petrolero, con experiencia en salud ocupacional, campañas preventivas y atención en zonas remotas. Actualmente desarrollo investigación sobre la autonomía profesional de la enfermería en Argentina.</p>
+      <p>Publicaciones registradas en: <a href="https://orcid.org/0009-0008-0924-9829" target="_blank">ORCID</a>, <a href="https://zenodo.org/records/15593593" target="_blank">Zenodo</a>, <a href="https://zenodo.org/records/15593864" target="_blank">Safe Creative</a>.</p>
+      <p>Conectá conmigo en <a href="https://www.linkedin.com/in/eliana-rosal-5286a4342" target="_blank">LinkedIn</a>.</p>
+    </article>
+  </section>
+
+  <section class="cv">
+    <h2>Currículum Vitae</h2>
+    <iframe src="cv.pdf" width="100%" height="500px"></iframe>
+  </section>
+
+  <section class="citas">
+    <h2>Inspiración</h2>
+    <blockquote>"La enfermería no es solo una ciencia, también es un arte" – Florence Nightingale</blockquote>
+    <blockquote>"El cuidado es el núcleo del conocimiento enfermero" – Jean Watson</blockquote>
+    <blockquote>"La enfermería es una forma de conocimiento encarnado" – Judith Butler (referida por Pamela G. Reed)</blockquote>
+    <blockquote>"El liderazgo enfermero transforma estructuras, no solo las habita" – Barbara Anderson</blockquote>
+  </section>
+
+  <section class="encuesta">
+    <h2>Encuesta: El futuro de la Enfermería</h2>
+    <form id="formulario">
+      <label for="nombre">Nombre completo:</label>
+      <input type="text" id="nombre" required><br>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" required><br>
+
+      <label for="experiencia">¿En qué área de enfermería trabajás actualmente?</label>
+      <input type="text" id="experiencia"><br>
+
+      <label for="mejora">¿Qué cambios propondrías para mejorar el rol de la enfermería?</label>
+      <textarea id="mejora" rows="4"></textarea><br>
+
+      <label for="autonomia">¿Qué significa para vos la autonomía profesional en enfermería?</label>
+      <textarea id="autonomia" rows="4"></textarea><br>
+
+      <button type="button" onclick="descargarRespuestas()">Descargar respuestas (.txt)</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Lic. Eliana Rosal | Sitio web desarrollado con HTML, CSS y JS</p>
+  </footer>
+</body>
+</html>
